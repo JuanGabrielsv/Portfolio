@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;    
+    background-color: #000000;
+}
+.consola {
+    width: 40em;
+    height: 20em;
+    border-radius: 0.5em;    
+    border: 0.2em solid #002f00;
+}
