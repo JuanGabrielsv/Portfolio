@@ -191,6 +191,12 @@ body {
     background-color: #0C151D;
 }
 
+.italic {
+    font-style: italic;
+}
+
+/********************** HEADER *******************/
+
 header {
     background-color: #171F26;
 }
@@ -231,7 +237,10 @@ main {
 }
 
 .enlaces {
-    margin-top: 0.5rem;
+    display: flex;
+    margin-top: 0.9rem;
+    align-items: center;
+    gap: 1rem;
 }
 
 .sobre-mi {
@@ -251,7 +260,41 @@ main {
 
 .parrafo-sobre-mi {
     color: #c3c7cb;
+}
 
+.biografia {
+    margin-top: 2rem;
+    font-family: Poppins;
+}
+
+.titulo-biografia {
+    color: white;
+}
+
+.bio1 {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.fecha-biografia {
+    color: white;
+}
+
+.descripcion-biografia {
+    margin-left: 1rem;
+    color: #c3c7cb;
+}
+
+/*.article1 {
+    color: white;
+    background-color: #171F26;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}*/
+
+ul {
+    margin-left: 2rem;
 }
 
 footer {
