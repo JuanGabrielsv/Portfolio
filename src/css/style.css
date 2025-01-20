@@ -191,9 +191,17 @@ body {
     background-color: #0C151D;
 }
 
-.italic {
+.span1 {
+    font-style: italic;
+    color: white;
+}
+
+.span2 {
+    font-weight: 300;
     font-style: italic;
 }
+
+
 
 /********************** HEADER *******************/
 
@@ -215,7 +223,7 @@ main {
 }
 
 .img-foto-perfil {
-    height: 100px;
+    height: 120px;
     border-radius: 50%;
     border: solid #14a1f0 0.2rem;
 }
@@ -274,6 +282,9 @@ main {
 .bio1 {
     margin-top: 1rem;
     display: flex;
+    background-color: #171F26;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 
 .fecha-biografia {
@@ -285,13 +296,20 @@ main {
     color: #c3c7cb;
 }
 
-/*.article1 {
-    color: white;
-    background-color: #171F26;
-    padding: 2rem;
-    border-radius: 2rem;
-    margin-top: 1rem;
-}*/
+.hover-imagen {
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    transform: translateX(-50%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    background-color: #fff;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
 
 ul {
     margin-left: 2rem;
