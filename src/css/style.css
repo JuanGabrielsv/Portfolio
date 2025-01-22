@@ -201,12 +201,40 @@ body {
     font-style: italic;
 }
 
+.salto-linea {
+    margin-top: 20px;
+}
+
 
 
 /********************** HEADER *******************/
 
 header {
     background-color: #171F26;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0px;
+    padding: 1.5rem;
+}
+
+.logo {
+    color: white;
+    font-family: 'Poppins';
+}
+
+nav {
+    font-family: 'Poppins';
+    color: white;
+}
+
+.lista-nav {
+    list-style: none;
+}
+
+.lista-nav a {
+    color: white;
+    text-decoration: none;
 }
 
 /********************** MAIN *********************/
@@ -220,6 +248,10 @@ main {
     display: flex;
     margin-top: 3rem;
     align-items: center;
+}
+
+.titulos-h2 {
+    color: white;
 }
 
 .img-foto-perfil {
@@ -246,7 +278,7 @@ main {
 
 .enlaces {
     display: flex;
-    margin-top: 0.9rem;
+    margin-top: 0.7rem;
     align-items: center;
     gap: 1rem;
 }
@@ -256,10 +288,6 @@ main {
     flex-direction: column;
     font-family: Poppins;
     margin-top: 3rem;
-}
-
-.titulo-sobre-mi {
-    color: white;
 }
 
 .parrafos-sobre-mi {
@@ -273,15 +301,12 @@ main {
 .biografia {
     margin-top: 2rem;
     font-family: Poppins;
-}
-
-.titulo-biografia {
-    color: white;
+    font-size: 14px;
 }
 
 .bio1 {
-    margin-top: 1rem;
     display: flex;
+    margin-top: 1rem;
     background-color: #171F26;
     padding: 1rem;
     border-radius: 1rem;
@@ -297,11 +322,11 @@ main {
 }
 
 .hover-imagen {
-    pointer-events: none;
-    opacity: 0;
     position: fixed;
     top: 35%;
     left: 65%;
+    pointer-events: none;
+    opacity: 0;
     transform: translateX(-50%);
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -309,6 +334,10 @@ main {
     z-index: 1000;
     background-color: #fff;
     transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.aptitudes {
+    font-family: 'Poppins';
 }
 
 ul {

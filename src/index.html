@@ -1,109 +1,179 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Hola, mi nombre es Juan Gabriel Sánchez y soy desarrollador de aplicaciones web. Bienvenido a mi portfolio donde podrás conocerme y ver mis habilidades como developer"
+        />
+        <meta name="author" content="Juan Gabriel Sánchez Vivero" />
+        <title>Portfolio - Juan Gabriel Sánchez</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script defer src="js/index.js"></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Hola, mi nombre es Juan Gabriel Sánchez y soy desarrollador de aplicaciones web. Bienvenido a mi portfolio donde podrás conocerme y ver mis habilidades como developer">
-    <meta name="author" content="Juan Gabriel Sánchez Vivero">
-    <title>Portfolio - Juan Gabriel Sánchez</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/index.js"></script>
-</head>
-
-<body>
-    <header></header>
-    <main>
-        <section class="cabecera">
-            <img class="img-foto-perfil" src="images/foto_perfil.png" alt="Foto del rostro de Juan Gabriel Sánchez">
-            <div class="contenedor-uno">
-                <p class="nombre">Juan Gabriel Sánchez</p>
-                <p class="actividad">Desarrollador web</p>
-                <div class="enlaces">
-                    <a href="https://github.com/JuanGabrielsv" target="_blank"><img src="images/github_logo.svg"
-                            alt="logo enlace a github de Juan Gabriel Sánchez"></a>
-                    <a href="https://www.linkedin.com/in/juan-gabriel-s%C3%A1nchez-vivero-32a009221/"
-                        target="_blank"><img src="images/linkedin_logo.svg"
-                            alt="logo enlace a linkedin de Juan Gabriel Sánchez"></a>
-                    <a href="https://open.spotify.com/user/vsp72n5xkhwxozdvz8nrmcykr?si=518146a8d51f4240"
-                        target="_blank"><img src="images/spotify_logo.svg"
-                            alt="logo enlace al perfil de spotify de Juan Gabriel Sánchez"></a>
+    <body>
+        <header>
+            <p class="logo">Juangabrielsv.dev</p>
+            <nav>
+                <ul class="lista-nav">
+                    <li><a href="#">Mi rincón geek</a></li>
+                </ul>
+            </nav>
+            <div></div>
+        </header>
+        <main>
+            <section class="cabecera">
+                <img
+                    class="img-foto-perfil"
+                    src="images/foto_perfil.png"
+                    alt="Foto del rostro de Juan Gabriel Sánchez"
+                />
+                <div class="contenedor-uno">
+                    <p class="nombre">Juan Gabriel Sánchez</p>
+                    <p class="actividad">Desarrollador web</p>
+                    <div class="enlaces">
+                        <a
+                            href="https://github.com/JuanGabrielsv"
+                            target="_blank"
+                            ><img
+                                src="images/github_logo.svg"
+                                alt="logo enlace al perfil github de Juan Gabriel Sánchez"
+                        /></a>
+                        <a
+                            href="https://www.linkedin.com/in/juan-gabriel-s%C3%A1nchez-vivero-32a009221/"
+                            target="_blank"
+                            ><img
+                                src="images/linkedin_logo.svg"
+                                alt="logo enlace al perfil linkedin de Juan Gabriel Sánchez"
+                        /></a>
+                        <a
+                            href="https://open.spotify.com/user/vsp72n5xkhwxozdvz8nrmcykr?si=518146a8d51f4240"
+                            target="_blank"
+                            ><img
+                                src="images/spotify_logo.svg"
+                                alt="logo enlace al perfil de spotify de Juan Gabriel Sánchez"
+                        /></a>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="sobre-mi">
-            <h2 class="titulo-sobre-mi">SOBRE MÍ</h2>
-            <div class="parrafos-sobre-mi">
-                <p class="parrafo-sobre-mi">
-                    👋 ¡Hola!, soy desarrollador de aplicaciones web con una sólida
-                    experiencia como técnico en sistemas microinformáticos y
-                    redes.
-                </p>
-                <br />
-                <p class="parrafo-sobre-mi">
-                    Especializado en <img src="images/html5_logo.svg" alt="Imagen logotipo de html5">Html, <img
-                        src="images/css_logo.svg" alt="Imagen logotipo de css"> css, <img
-                        src="images/javascript_logo.svg" alt="Imagen logotipo de javascript"> JavaScript, <img
-                        src="images/git_logo.svg" alt="Imagen logotipo de Git">Git, disfruto
-                    transformando ideas en aplicaciones
-                    funcionales que mejoran la experiencia del usuario.
-                </p>
-                <br />
-                <p class="parrafo-sobre-mi">
-                    Siempre busco nuevos retos, seguir
-                    creciendo profesionalmente y contribuir a proyectos que
-                    marquen la diferencia 🚀.
-                </p>
-            </div>
-        </section>
-        <section class="biografia">
-            <h2 class="titulo-biografia">BIO</h2>
-            <div class="bio1">
-                <p class="fecha-biografia">1983</p>
-                <p class="descripcion-biografia">Nací el 26 de Mayo en <span class="span1">Sevilla</span>, mi primer
-                    contacto con la tecnología fue con un
-                    <span class="hover-container" id="hover-container">
-                        <span class="span2"><u>Spectrum 128K Sinclair.</u></span>
-                        <img src="images/spectrum.png" alt="Una imagen del Spectrum" class="hover-imagen"
-                            id="hover-imagen">
-                    </span>
-                </p>
-            </div>
-            <div class="bio1">
-                <p class="fecha-biografia">2006</p>
-                <p class="descripcion-biografia">Trabajé en <span class="span1">Grupo KissyCo S.L</span>, mi primer
-                    trabajo como técnico informático.
-                </p>
-            </div>
-            <div class="bio1">
-                <p class="fecha-biografia">2007</p>
-                <p class="descripcion-biografia">Pegué el salto a <span class="span1">Distribuciones Mylar S.A</span>,
-                    trabajando en el servicio técnico oficial de la marca <span class="span1">Brother</span>, como
-                    técnico en reparaciones de equipos de impresión.
-                </p>
-            </div>
-            <div class="bio1">
-                <p class="fecha-biografia">2014</p>
-                <p class="descripcion-biografia">Realicé mi labor como técnico informático para <span
-                        class="span1">Pentinfor Tiendas
-                        S.L</span>, fue una gran oportunidad para seguir creciendo al dedicarme a trabajar en conjunto
-                    con el CIC de la universidad Pablo de Olavide para renovar el equipamiento informático del
-                    profesorado entre otras funciones.
-                </p>
-            </div>
-            <div class="bio1">
-                <p class="fecha-biografia">2019</p>
-                <p class="descripcion-biografia"><span class="span1">Giga On Sistemas S.L</span> me dió la oportunidad
-                    de trabajar con ellos en un proyecto joven dando soporte a clientes profesionales a través de
-                    plataformas en remoto.
-                </p>
-            </div>
-
-        </section>
-    </main>
-    <footer></footer>
-
-</body>
-
+            </section>
+            <section class="sobre-mi">
+                <h2 class="titulos-h2">SOBRE MÍ</h2>
+                <div class="parrafos-sobre-mi">
+                    <p class="parrafo-sobre-mi">
+                        👋 ¡Hola!, soy desarrollador de aplicaciones web con una
+                        sólida experiencia como técnico en sistemas
+                        microinformáticos y redes. Especializado en
+                        <img
+                            src="images/html5_logo.svg"
+                            alt="Imagen logotipo de html5"
+                        />Html
+                        <img
+                            src="images/css_logo.svg"
+                            alt="Imagen logotipo de css"
+                        />
+                        css
+                        <img
+                            src="images/javascript_logo.svg"
+                            alt="Imagen logotipo de javascript"
+                        />
+                        JavaScript
+                        <img
+                            src="images/git_logo.svg"
+                            alt="Imagen logotipo de Git"
+                        />Git<img
+                            src="images/angular_logo.svg"
+                            alt="Imagen logotipo de Angular"
+                        />Angular, disfruto transformando ideas en aplicaciones
+                        funcionales que mejoran la experiencia del usuario.
+                        Siempre busco nuevos retos, seguir creciendo
+                        profesionalmente y contribuir a proyectos que marquen la
+                        diferencia 🚀.
+                    </p>
+                </div>
+            </section>
+            <section class="aptitudes salto-linea">
+                <h2 class="titulos-h2">APTITUDES</h2>
+            </section>
+            <section class="biografia">
+                <h2 class="titulos-h2">BIO</h2>
+                <div class="bio1">
+                    <p class="fecha-biografia">1983</p>
+                    <p class="descripcion-biografia">
+                        Nací el 26 de Mayo en
+                        <span class="span1">Sevilla</span>, mi primer contacto
+                        con la tecnología fue con un
+                        <span class="hover-container" id="hover-container">
+                            <span class="span2"
+                                ><u>Spectrum 128K Sinclair.</u></span
+                            >
+                            <img
+                                src="images/spectrum.png"
+                                alt="Una imagen del Spectrum"
+                                class="hover-imagen"
+                                id="hover-imagen"
+                            />
+                        </span>
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2006</p>
+                    <p class="descripcion-biografia">
+                        Trabajé en <span class="span1">Grupo KissyCo S.L</span>,
+                        mi primer trabajo como técnico informático.
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2007</p>
+                    <p class="descripcion-biografia">
+                        Pegué el salto a
+                        <span class="span1">Distribuciones Mylar S.A</span>,
+                        trabajando en el servicio técnico oficial de la marca
+                        <span class="span1">Brother</span>, como técnico en
+                        reparaciones de equipos de impresión.
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2014</p>
+                    <p class="descripcion-biografia">
+                        Realicé mi labor como técnico informático para
+                        <span class="span1">Pentinfor Tiendas S.L</span>, fue
+                        una gran oportunidad para seguir creciendo al dedicarme
+                        a trabajar en conjunto con el CIC de la universidad
+                        Pablo de Olavide para renovar el equipamiento
+                        informático del profesorado entre otras funciones.
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2019</p>
+                    <p class="descripcion-biografia">
+                        <span class="span1">Giga On Sistemas S.L</span> me dió
+                        la oportunidad de trabajar con ellos en un proyecto
+                        joven dando soporte a clientes profesionales a través de
+                        plataformas en remoto.
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2020</p>
+                    <p class="descripcion-biografia">
+                        <span class="span1">Paez soluciones integrales</span> me
+                        dediqué a la configuración completa de impresoras de
+                        oficina profesionales HP, gestioné una cartera de
+                        clientes con mantenimiento informáticos.
+                    </p>
+                </div>
+                <div class="bio1">
+                    <p class="fecha-biografia">2023</p>
+                    <p class="descripcion-biografia">
+                        <span class="span1">Universidad CEU San Pablo</span>
+                        decidí pegar el salto al desarrollo WEB cursando el
+                        grado superior de desarrollo de aplicaciones WEB en
+                        donde me encuentro actualmente (2025).
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>
