@@ -191,6 +191,14 @@ body {
     background-color: #0C151D;
 }
 
+ul {
+    color: #c3c7cb;
+}
+
+.span {
+    color: #ffffff;
+}
+
 .span1 {
     font-style: italic;
     color: white;
@@ -205,11 +213,11 @@ body {
     margin-top: 20px;
 }
 
-
-
 /********************** HEADER *******************/
 
 header {
+    position: fixed;
+    width: 100%;
     background-color: #171F26;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -221,6 +229,11 @@ header {
 .logo {
     color: white;
     font-family: 'Poppins';
+}
+
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 nav {
@@ -237,11 +250,17 @@ nav {
     text-decoration: none;
 }
 
+.margin-1 {
+    margin-top: 1rem;
+}
+
 /********************** MAIN *********************/
 
 main {
     max-width: 560px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
 }
 
 .cabecera {
@@ -299,14 +318,12 @@ main {
 }
 
 .biografia {
-    margin-top: 2rem;
     font-family: Poppins;
     font-size: 14px;
 }
 
-.bio1 {
+.bio {
     display: flex;
-    margin-top: 1rem;
     background-color: #171F26;
     padding: 1rem;
     border-radius: 1rem;
@@ -344,6 +361,13 @@ ul {
     margin-left: 2rem;
 }
 
+/********************** FOOTER *********************/
+
 footer {
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: 2rem;
     background-color: #171F26;
+    padding: 1rem;
 }
