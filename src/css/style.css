@@ -361,7 +361,7 @@ ul {
     margin-left: 2rem;
 }
 
-/********************** FOOTER *********************/
+/********************* FOOTER *********************/
 
 footer {
     color: white;
@@ -370,4 +370,51 @@ footer {
     margin-top: 2rem;
     background-color: #171F26;
     padding: 1rem;
+}
+
+/******************* RESPONSIVE *******************/
+
+@media (max-width: 600px) {
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: #171F26;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden-responsive {
+        display: none;
+    }
+
+    .cabecera {
+        justify-content: center;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+
+    .cabecera img {
+        margin-bottom: 1rem;
+    }
+
+    .nombre {
+        font-size: 1.5em;
+    }
+
+    .contenedor-uno {
+        margin: 0;
+        text-align: center;
+    }
+
+    .enlaces {
+        justify-content: center;
+    }
+
+    .sobre-mi {
+        margin-top: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
 }
