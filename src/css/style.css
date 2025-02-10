@@ -449,10 +449,7 @@ footer {
 		justify-content: center;
 		margin-top: 1rem;
 		flex-direction: column;
-	}
-
-	.cabecera img {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	.nombre {
@@ -475,4 +472,6 @@ footer {
 	main {
 		padding: 1rem;
 	}
+
+
 }
